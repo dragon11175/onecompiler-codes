@@ -11,9 +11,9 @@ function fetchuserdata(userId){
         }else{
           reject(new Error('invalid user'));
         }
-      },1000);
-  });
-}
+      },1000);//close settime
+  });//close promise
+}//close function
 
 
-fetchuserdata(123).then((res)=>{console.log(res);}).catch((err)=>{console.log(err);});
+fetchuserdata().then((res)=>{console.log(res);}).catch((err)=>{console.log(err);});
