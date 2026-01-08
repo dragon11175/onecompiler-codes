@@ -6,8 +6,7 @@ using namespace std;
 int main(){
   
   unordered_map<string, int>m;
-  pair<string, int> pair2("lalit",34);
-  m.insert(pair2);
+  m.insert({"lalit",34});
   
   
   cout<<m["lalit"]<<endl;
