@@ -6,7 +6,7 @@ using namespace std;
 
 int main(){
   
-  unordered_map<int,int>m;
+  unordered_map<string,int>m;
   pair<string,int> pair2("lalit",34);
   m.insert(pair2);
   
