@@ -16,5 +16,19 @@ int main(){
   cout<<" first value of pair of pair:"<<p1.first<<endl;
   cout<<"second value first element of pair of pair:"<<p1.second.first<<endl;
   cout<<"second value second element of pair of pair:"<<p1.second.second<<endl;
+  
+  //here we make a vector of pair
+  vector<pair<int,int>> vec;
+  vec.push_back({25,37});
+  vec.push_back({55,66});
+  vec.push_back({67,98});
+  vec.push_back({55,78});
+  
+  // this is range based for loop 
+  cout<<"vector of pairs :"<<endl;
+  for(auto p: vec){
+    cout<<p.first<<" "<<p.second<<endl;
+  }
+  
   return 0;
 }
