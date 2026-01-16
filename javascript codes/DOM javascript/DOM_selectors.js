@@ -17,3 +17,11 @@ console.log(item[0]);
 console.log(item[1]);
 console.log(item[2]);
 
+//getElementByTagName()
+
+
+const paragraphs=document.getElementByTagName("p");
+console.log("getelementsByTagname returns a html collection:");
+condsole.log(paragraphs);
+
+
