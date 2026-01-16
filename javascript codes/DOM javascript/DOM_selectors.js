@@ -8,6 +8,6 @@ console.log(greeting.textContent);
 
 //getElementsByClassName():
 
-const item=documemt.getElementsByClassName("item");
-console.log(item.textContent);
+const item=document.getElementsByClassName("item");
+console.log(item);
 
