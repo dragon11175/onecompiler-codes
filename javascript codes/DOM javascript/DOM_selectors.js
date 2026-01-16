@@ -12,7 +12,7 @@ const item=document.getElementsByClassName("item");
 console.log("getElementsByClassName returns html collection:";)
 console.log(item);
 
-console.log("now we access html collection elements by index numbers";
+console.log("now we access html collection elements by index numbers");
 console.log(item[0]);
 console.log(item[1]);
 console.log(item[2]);
