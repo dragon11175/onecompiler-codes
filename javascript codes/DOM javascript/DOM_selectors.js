@@ -13,15 +13,20 @@ console.log("getElementsByClassName returns html collection:");
 console.log(item);
 
 console.log("now we access html collection elements by index numbers");
-console.log(item[0]);
-console.log(item[1]);
-console.log(item[2]);
+console.log(item[0].textContent);
+console.log(item[1].textContent);
+console.log(item[2].textContent);
 
 //getElementByTagName()
 
-
-const paragraphs=document.getElementByTagName("p");
+const paragraphs=document.getElementsByTagName("p");
 console.log("getelementsByTagname returns a html collection:");
-condsole.log(paragraphs);
+console.log(paragraphs);
+
+console.log("now we access html collection elements by index numbers");
+console.log(paragraphs[0].textContent);
+console.log(paragraphs[1].textcontent);
+console.log(paragraphs[2].textContent);
+
 
 
