@@ -30,6 +30,12 @@ console.log(box.getAttribute("class"));
 
 
 //adding and removing elements
+const list=document.getElementById("list");
+const newItem=document.createElement("li");
+newItem.textContent="item2";
+list.appendChild(newItem);//we add here new element 
+list.removeChild(list.firstElementChild);//here wwe remove first element form ul list
+list.innerHTML+="<li>ITEM3</li>";// it is not best way to add element in html
 
 
 
