@@ -38,5 +38,5 @@ console.log("queryselectorAll");
 const speacials=document.querySelectorAll(".itme-menu");
 console.log(speacials);
 // here we use for each loop for acess all elements of node 
-speacials.forEach((item)=>{console.log(item.textContent);})
+speacials.forEach((item)=>{console.log(item.textContent);});
 
