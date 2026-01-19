@@ -34,7 +34,7 @@ const speacial=document.querySelector(".container");
 console.log(speacial.textContent);
 
 //querySelectorAll():
-
+cobsole.log("queryselectorAll");
 const speacials=document.querySelectorAll(".itme-menu");
 console.log(speacials);
 // here we use for each loop for acess all elements of node 
