@@ -29,4 +29,8 @@ box.classList.toggle("highlilghts");
 console.log(box.getAttribute("class"));
 
 
+//adding and removing elements
+
+
+
 
