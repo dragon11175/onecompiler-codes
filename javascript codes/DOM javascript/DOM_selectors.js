@@ -29,13 +29,13 @@ console.log(paragraphs[1].textContent);
 console.log(paragraphs[2].textContent);
 
 //queryselector()
-
+console.log("queryselector:");
 const speacial=document.querySelector(".container");
 console.log(speacial.textContent);
 
 //querySelectorAll():
 
-const speacials=document.querySelectorAll("itme-menu");
+const speacials=document.querySelectorAll(".itme-menu");
 console.log(speacials);
 // here we use for each loop for acess all elements of node 
 speacials.forEach((item)=>{console.log(item.textContent);})
