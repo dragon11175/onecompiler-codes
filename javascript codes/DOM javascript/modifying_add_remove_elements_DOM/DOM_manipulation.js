@@ -39,7 +39,14 @@ list.innerHTML+="<li>ITEM3</li>";// it is not best way to add element in html
 
 const newItem3=document.createElement("li");
 newItem3.textContent="Item4";
-list.insertBefore(newItem3,list.firstElementChild);
+list.insertBefore(newItem3,list.children[2]);// with the help of insertbeforre  we add element in the any postions with index 
+
+
+
+
+
+
+
 
 
 
