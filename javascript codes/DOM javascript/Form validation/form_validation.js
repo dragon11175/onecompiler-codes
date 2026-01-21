@@ -1,11 +1,12 @@
 const form=document.getElementById("loginform");
-form.addEventListener("submit",()=>{
+form.addEventListener("click",()=>{
   event.preventDefault();
   const username=document.getElementById("username").value;
   const password=document.getElementById("password").value;
-  console.log(username,password);
+  const content=document.getElementById("paragraph");
+  const content1=document.getElementById("paragraph1");
+  content.textContent=username;
+  content1.textContent=password;
   
-  if(!username||!password){
-    alert("all field is required");
-  }
+ 
 });
