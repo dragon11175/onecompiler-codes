@@ -20,6 +20,8 @@ int main(){
   
   cout<<"check index number of laptop: "<<m.count("laptop")<<endl;
   
+  
+  //here we get random acces of map element:
   auto ui=m.find("laptop");
   if(ui!=m.end()){
     cout<<"your find element is:"<<ui->first<<"=>"<<ui->second<<endl;
